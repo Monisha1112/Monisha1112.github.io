@@ -1,12 +1,20 @@
 .head{
     font-family:  'Droid Serif', arial, verdana;
-    color: rgb(138, 218, 255);
-    position: absolute;
+    color:#BF0413 ;
+    /* position: absolute; */
     left: 65%;
-    transform: translate(-50%,-50%);
+    /* transform: translate(-50%,-50%); */
     font-size: 70px;
+    margin: 35px;
+    text-align: right;
+    /* float: right; */
 }
+
 #head1{
+    font-size:90px;
+    color:#f30531;
+}
+/* #head1{
     top: 2%;
 }
 #head2{
@@ -17,7 +25,7 @@
 }
 #head4{
     top: 160%;
-}
+} */
 
   
 
@@ -27,21 +35,23 @@ body{
     background-position-x: 50%;
     background-size: 100%;
     background-position-y: 70%;
-    
+    overflow: hidden;
 }
 .para{
-    color: rgb(155, 121, 209);
-    border: 10px solid rgb(179, 0, 0);
-    border-radius: 50px;
-    margin: auto;
+    color: rgb(235, 235, 235);
     padding:10px;
     padding-left: 40px;
     padding-right: 30px;
-    position: absolute;
-    transform: translate(-50%,-50%);
     font-size: 30px;
+    left:65%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 0;
+    max-width: 50%;
 }
-#para1{
+/* #para1{
     top: 60%;
     left: 65%;
 }
@@ -52,7 +62,7 @@ body{
 #para3{
     top: 200%;
     left: 65%;
-}
+} */
 
 @media screen and (max-width: 600px) {
     .para {
