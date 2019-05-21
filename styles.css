@@ -1,0 +1,84 @@
+.head{
+    font-family:  'Droid Serif', arial, verdana;
+    color: rgb(138, 218, 255);
+    position: absolute;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+}
+#head1{
+    top: 2%;
+}
+#head2{
+    top: 20%;
+}  
+#head3{
+    top: 90%;
+}
+#head4{
+    top: 160%;
+}
+
+  
+
+body{
+    background-image: url(image.jpg);
+    background-attachment: fixed;
+    background-position-x: 50%;
+    background-size: 100%;
+    background-position-y: 70%;
+    
+}
+.para{
+    color: rgb(155, 121, 209);
+    border: 10px solid rgb(179, 0, 0);
+    border-radius: 50px;
+    margin: auto;
+    padding:10px;
+    padding-left: 40px;
+    padding-right: 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+}
+#para1{
+    top: 60%;
+    left: 65%;
+}
+#para2{
+    top: 130%;
+    left: 65%;
+}
+#para3{
+    top: 200%;
+    left: 65%;
+}
+
+@media screen and (max-width: 600px) {
+    .para {
+      font-size: 10px;
+    }
+    .head {
+        font-size: 30 px;
+      }
+  }
+
+  @media screen and (max-width: 900px) {
+    .para {
+      font-size: 15px;
+    }
+    .head {
+        font-size: 40px;
+      }
+  } 
+@media screen and (max-width: 1500px) {
+    .para {
+      font-size: 20px;
+    }
+    .head {
+        font-size: 50px;
+      }
+  }
+ 
+
+  
